@@ -1,0 +1,14 @@
+.list {
+	padding: 10px;
+}
+.list__item {
+	margin: 10px 0;
+	background: #111;
+	height: 40px;
+}
+.list__item--hidden {
+	display: none;
+}
+.list--all-hidden-visible .list__item--hidden{
+	display: block;
+}
